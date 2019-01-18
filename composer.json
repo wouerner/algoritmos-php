@@ -1,0 +1,19 @@
+{
+    "name": "wouerner/algoritmos-php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "wouerner",
+            "email": "wouerner@protonmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
