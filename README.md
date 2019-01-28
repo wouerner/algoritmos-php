@@ -30,6 +30,12 @@ composer install -vvv
 ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/PontosTest.php
 
 ```
+```sh
+./vendor/bin/phpcbf src --standard=PSR2 
+```
+```sh
+./vendor/bin/phpcs --standard=PSR2  src
+```
 
 ## Built With
 
