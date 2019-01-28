@@ -51,7 +51,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Wouerner** - *Initial work* - [PurpleBooth](https://github.com/wouerner)
+* **Wouerner** - *Initial work* - [Github](https://github.com/wouerner)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
