@@ -5,13 +5,6 @@ use PHPUnit\Framework\TestCase;
 
 final class PontosTest extends TestCase
 {
-    /* public function testCanBeCreatedFromValidEmailAddress(): void */
-    /* { */
-    /*     $this->assertInstanceOf( */
-    /*         Email::class, */
-    /*         Email::fromString('user@example.com') */
-    /*     ); */
-    /* } */
 
     public function testBlank(): void
     {
