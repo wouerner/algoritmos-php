@@ -7,4 +7,4 @@ before_script:
   
 script:
   - phpunit --configuration phpunit.xml
-  - phpcbf  --standard=PSR2  src
+  - vendor/bin/phpcbf  --standard=PSR2  src/
