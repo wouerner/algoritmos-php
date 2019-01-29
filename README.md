@@ -10,13 +10,13 @@ Projeto de estudos das liguagem de programação **PHP**.
 Give examples
 ``
 
-### Installing
+### Instalando
 
-
+Clone do projeto
 ```sh
 git clone https://github.com/wouerner/algoritmos-php.git
 ```
-
+Entre na pasta
 ```sh
 cd algoritmos-php/
 ```
