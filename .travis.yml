@@ -7,4 +7,4 @@ before-script:
   - composer dumpautoload
 
 script:
-  - phpunit
+  - vendor/bin/phpunit
