@@ -5,6 +5,7 @@ php:
 before-script:
   - composer install --no-interaction
   - composer dumpautoload
+  - lshttps://stackoverflow.com/questions/25219764/phpunit-autoload-classes-within-tests
 
 script:
   - phpunit --configuration phpunit.xml
