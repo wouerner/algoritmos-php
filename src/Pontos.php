@@ -13,9 +13,9 @@ final class Pontos
             || empty($y1)
             || empty($y2)
         ) {
-throw new InvalidArgumentException(
-    sprintf('Faltando variaveis')
-);
+            throw new InvalidArgumentException(
+                sprintf('Faltando variaveis')
+            );
         }
 
         return sqrt(pow(($x2 - $x1 ), 2) + pow(($y2 - $y1), 2));
