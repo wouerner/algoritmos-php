@@ -1,4 +1,4 @@
-# algoritmos-php
+# algoritmos-php [![Build Status](https://travis-ci.com/wouerner/algoritmos-php.svg?branch=master)](https://travis-ci.com/wouerner/algoritmos-php)
 
 Projeto de estudos das liguagem de programação **PHP**.
 
