@@ -5,19 +5,19 @@ namespace Wouerner;
 
 final class Pontos
 {
-    public function exec($x1, $x2, $y1, $y2) : float
+    public function exec($codx1, $codx2, $cody1, $cody2) : float
     {
 
-        if (empty($x1)
-            || empty($x2)
-            || empty($y1)
-            || empty($y2)
+        if (empty($codx1)
+            || empty($codx2)
+            || empty($cody1)
+            || empty($cody2)
         ) {
             throw new InvalidArgumentException(
                 sprintf('Faltando variaveis')
             );
         }
 
-        return sqrt(pow(($x2 - $x1 ), 2) + pow(($y2 - $y1), 2));
+        return sqrt(pow(($codx2 - $codx1 ), 2) + pow(($cody2 - $cody1), 2));
     }
 }
